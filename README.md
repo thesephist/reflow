@@ -1,2 +1,2 @@
-# yt-suite
-Various bits of javascript for use to make YouTube's user experience a bit better
+# reflow
+Simple extensions to inject styles into raw HTML pages for better reading experience

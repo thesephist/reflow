@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Reflow",
+    "description": "Unstylized and hard-to-read web pages become beautifully designed and enjoyable to read with Reflow",
+    "version": "0.5",
+
+    "browser_action": {
+	"default_icon": "reflow.png",
+	"default_popup": "reflow.html"
+    },
+
+    "permissions": [
+	"activeTab",
+	"http://random.thelifelongtraveler.com/*"
+    ]
+}

@@ -1,0 +1,30 @@
+/* CSS copyright Linus Lee, Polyx Studio */
+
+body{
+    width:55%;
+    min-width:300px;
+    margin:20px;
+    background-color:#f9f9f9;
+    font-size:1em;
+    margin:25px auto;
+    font-family:"Helvetica",sans-serif;
+}
+.serif{font-family:"Georgia","Times New Roman",serif}
+.mono{"Courier",monospace}
+.white{background-color:#f9f9f9}
+.night{color:white;background-color:black}
+.sepia{background-color:#B6946C}
+body{
+    line-height:1.4em;
+}
+p{margin-bottom:25px}
+hr{
+    background:linear-gradient(to right,rgba(100,100,100,0),black 50%,rgba(100,100,100,0) 100%);
+    border-width:0px;
+    height:1px;
+    opacity:0.8
+}
+img{
+    margin:20px;
+}
+/* table borders */

@@ -1,0 +1,89 @@
+/* CSS copyright Linus Lee, Apogee Labs for Education */
+
+html,body,div,p{margin:0;padding:0}h1,h2{font-weight:normal}img{border:0}
+body{
+    font-family:"Helvetica Neue","Arial",sans-serif;
+    width:300px;
+    height:auto;
+    overflow:hidden;
+}
+#titlebar{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background-color:yellowgreen;
+    color:white;
+    font-size: 20px;
+    box-shadow: inset 0 0 25px rgba(8, 95, 56, 0.6);
+}    
+#pageColor,#pageWidth,#textStyle{
+    box-sizing:border-box;
+    border-top:1px solid black;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    line-height:1.4em;
+}
+#pageWidth>img{
+    box-sizing:border-box;
+    width:75px;
+    margin:5px 11.3px;
+    height:75px;
+    cursor:pointer;
+}
+#textStyle>div{
+    float:left;
+}
+#pageColor>div{
+    height:50px;
+    width:33.33%;
+    float:left;
+    cursor:pointer;
+}
+#pageColor>div:hover{
+    opacity:0.7;
+}
+#textFont{
+    width:50%;
+}
+#textSize{
+    border-right: 1px solid black;
+    height: 50px;
+    float: left;	  
+}
+#textSize>div{
+    height:50px;
+    line-height:50px;
+    width:33.33%;
+    float:left;
+    font-family:"Times New Roman",serif;
+    text-align:center;
+    cursor:pointer;
+}
+#textSize{
+	width:calc(50% - 1px);
+}
+#textFont>div{
+    width:33.33%;
+    height:50px;
+    float:left;
+    line-height:50px;
+    text-align:center;
+    font-size:1.3em;
+    cursor:pointer;
+}
+#pageColor{
+    width:100%;
+}
+#serif{font-family:"Georgia","Times New Roman",serif}
+#mono{font-family:"Courier",monospace}
+#white{background-color:#f9f9f9}
+#night{color:white;background-color:black}
+#sepia{background-color:#B6946C}
+#pt14{font-size:14px}
+#pt20{font-size:20px}
+#pt26{font-size:26px}   
+#textFont>div:hover,#textSize>div:hover,#pageWidth>img:hover{
+    opacity:0.6;
+}
